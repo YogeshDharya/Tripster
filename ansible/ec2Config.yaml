@@ -1,6 +1,6 @@
 ---
 - name: Setup Jenkins and Docker on Ubuntu EC2 instance
-  hosts: ec2_instance  # Replace with your actual host or group name
+  hosts: ec2_instance  
   become: yes  # Elevate privileges to root
 
   vars:
